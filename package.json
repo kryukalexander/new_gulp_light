@@ -1,0 +1,35 @@
+{
+  "name": "new_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp build:all",
+    "build:images": "gulp build:images",
+    "dev-server": "gulp watch",
+    "clean": "gulp clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "browser-sync": "^2.23.6",
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-pngquant": "^5.1.0",
+    "postcss-flexbugs-fixes": "^3.3.0",
+    "postcss-import": "^11.1.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  },
+  "browserslist": [
+    "last 10 versions",
+    "> 1%"
+  ]
+}

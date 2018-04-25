@@ -1,0 +1,14 @@
+@import 'vendor';
+@import 'variables';
+
+body {
+    background-color: $body-bg;
+}
+
+h1 {
+    color: $header-col;
+}
+
+p {
+    color: $p-col;
+}

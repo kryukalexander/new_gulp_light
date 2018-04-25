@@ -1,0 +1,6 @@
+node_modules
+.idea
+src/images/sprite.png
+src/images/sprite.@2x.png
+src/images/sprite.svg
+build
